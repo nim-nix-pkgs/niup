@@ -11,6 +11,7 @@
   inputs.src-niup-master.ref   = "refs/heads/master";
   inputs.src-niup-master.owner = "dariolah";
   inputs.src-niup-master.repo  = "niup";
+  inputs.src-niup-master.dir   = "";
   inputs.src-niup-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
