@@ -11,7 +11,6 @@
   inputs.src-niup-3_27_4.ref   = "refs/tags/3.27.4";
   inputs.src-niup-3_27_4.owner = "dariolah";
   inputs.src-niup-3_27_4.repo  = "niup";
-  inputs.src-niup-3_27_4.dir   = "";
   inputs.src-niup-3_27_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
